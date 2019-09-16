@@ -9,5 +9,6 @@ python xero-asset.py
 
 create .env file
 
-XERO_PRIVATE_KEY=<Consumer Key>
-XERO_PRIVATE_CONSUMER_KEY=<Consumer Secret>
+- XERO_PRIVATE_KEY= <Consumer Key>
+
+- XERO_PRIVATE_CONSUMER_KEY=<Consumer Secret>
