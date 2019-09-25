@@ -19,6 +19,7 @@ def make_api_call(method, url, credential, payload=None, parameters=None):
     # Use these headers to instrument calls. Makes it easier
     # to correlate requests and responses in case of problems
     # and is a recommended best practice.
+    
     request_id = str(uuid.uuid4())
     instrumentation = {'client-request-id': request_id,
                        'return-client-request-id': 'true'}
